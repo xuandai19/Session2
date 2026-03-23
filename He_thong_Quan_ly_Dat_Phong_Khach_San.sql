@@ -1,3 +1,7 @@
+-- 1. Tạo Database (Thực hiện lệnh này trước)
+CREATE DATABASE "HotelDB";
+
+-- Sau đó kết nối vào LibraryDB rồi mới chạy tiếp:
 CREATE SCHEMA hotel;
 
 SET search_path TO hotel;

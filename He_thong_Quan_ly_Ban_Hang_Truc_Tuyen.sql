@@ -1,3 +1,8 @@
+-- 1. Tạo Database (Thực hiện lệnh này trước)
+CREATE DATABASE "EcommerceDB";
+
+-- Sau đó kết nối vào EcommerceDB rồi mới chạy tiếp:
+
 CREATE SCHEMA shop;
 
 SET search_path TO shop;
